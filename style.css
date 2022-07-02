@@ -1,0 +1,51 @@
+ .batch {
+     text-align: center;
+ }
+
+ #ul {
+     display: inline-block;
+ }
+
+ li {
+     border: 1px solid;
+     border-radius: 5px;
+     padding: 2px 4px;
+     cursor: default;
+     margin: 15px 15px;
+     font-size: 20px;
+     list-style-type: none;
+ }
+
+ #tr {
+    display: none;
+     position: relative;
+     left: 32%;
+ }
+
+ #bca819,
+ #bca820,
+ #bca818 {
+     display: none;
+     text-align: center;
+ }
+
+ /* ------------- Pop-Up View -------------  */
+  .tooltip .tooltiptext {
+    visibility: hidden;
+    width: 200px;
+    background-color: black;
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    padding: 5px 0;
+  
+    /* Position the tooltip */
+    position: absolute;
+    left: 15%;
+    z-index: 1;
+  }
+  
+  .tooltip:hover .tooltiptext {
+    visibility: visible;
+  }
+   /* ------------- Pop-Up View -------------  */

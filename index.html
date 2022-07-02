@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="script.js"></script>
+    <link rel="stylesheet" href="style.css">
+
+    <title>Student Details</title>
+</head>
+<body>
+    <h1 style="text-align: center;">Student Details</h1>
+
+    <div class="batch">
+        <form action="#">
+            <label for="branch">Select Batch:</label>
+            <select id="branch" name="branch" onchange="select(this.value);">
+              <option value="null">Select Batch</option>
+              <option value="bca1821">BCA 2018-2021</option>
+              <option value="bca1922">BCA 2019-2022</option>
+              <option value="bca2023">BCA 2020-2023</option>
+            </select> 
+        </form>
+    </div>
+
+    <div class="tooltip">
+        <span class="tooltiptext" id="demo">Tooltip text</span>
+      </div>
+
+    <!-- <div>
+        <p id="demo"> Student details</p>
+    </div> -->
+
+    <div id="bca818">
+        <ul id="ul">
+            <li>81801</li>
+            <li>81802</li>
+            <li>81803</li>
+            <li>81804</li>
+            <li>81805</li>
+            <li>81806</li>
+            <li>81807</li>
+            <li>81808</li>
+            <li>81809</li>
+            <li>81810</li>
+        </ul>
+        <ul id="ul">
+            <li>81811</li>
+            <li>81812</li>
+            <li>81813</li>
+            <li>81814</li>
+            <li>81815</li>
+            <li>81816</li>
+            <li>81817</li>
+            <li>81818</li>
+            <li>81819</li>
+            <li>81820</li>
+        </ul>
+        <ul id="ul">
+            <li>81821</li>
+            <li>81822</li>
+            <li>81823</li>
+            <li>81824</li>
+            <li>81825</li>
+            <li>81826</li>
+            <li>81827</li>
+            <li>81828</li>
+            <li>81829</li>
+            <li>81830</li>
+        </ul>
+        <ul id="ul">
+            <li>81831</li>
+            <li>81832</li>
+            <li>81833</li>
+            <li>81834</li>
+            <li>81835</li>
+            <li>81836</li>
+            <li>81837</li>
+            <li>81838</li>
+            <li>81839</li>
+            <li>81840</li>
+        </ul>
+        <ul id="ul">
+            <li>81841</li>
+            <li>81842</li>
+            <li>81843</li>
+            <li>81844</li>
+            <li>81845</li>
+            <li>81846</li>
+            <li>81847</li>
+            <li>81848</li>
+            <li>81849</li>
+            <li>81850</li>
+        </ul>
+    </div>
+    <div id="bca819">
+        <ul id="ul">
+            <li class="tooltip" onmouseover="show1()" onmouseout="hide()">81901</li>
+            <li onmouseover="show2()" onmouseout="hide()">81902</li>
+            <li onmouseover="show3()" onmouseout="hide()">81903</li>
+            <li onmouseover="show4()" onmouseout="hide()">81904</li>
+            <li onmouseover="show5()" onmouseout="hide()">81905</li>
+            <li onmouseover="show6()" onmouseout="hide()">81906</li>
+            <li onmouseover="show7()" onmouseout="hide()">81907</li>
+            <li onmouseover="show8()" onmouseout="hide()">81908</li>
+            <li onmouseover="show9()" onmouseout="hide()">81909</li>
+            <li onmouseover="show10()" onmouseout="hide()">81910</li>
+        </ul>
+        <ul id="ul">
+            <li onmouseover="show11()" onmouseout="hide()" >81911</li>
+            <li onmouseover="show12()" onmouseout="hide()" >81912</li>
+            <li onmouseover="show13()" onmouseout="hide()" >81913</li>
+            <li onmouseover="show14()" onmouseout="hide()" >81914</li>
+            <li onmouseover="show15()" onmouseout="hide()" >81915</li>
+            <li onmouseover="show16()" onmouseout="hide()" >81916</li>
+            <li onmouseover="show17()" onmouseout="hide()" >81917</li>
+            <li onmouseover="show18()" onmouseout="hide()" >81918</li>
+            <li onmouseover="show19()" onmouseout="hide()" >81919</li>
+            <li onmouseover="show20()" onmouseout="hide()" >81920</li>
+        </ul>
+        <ul id="ul">
+            <li onmouseover="show21()" onmouseout="hide()" >81921</li>
+            <li onmouseover="show22()" onmouseout="hide()" >81922</li>
+            <li onmouseover="show23()" onmouseout="hide()" >81923</li>
+            <li onmouseover="show24()" onmouseout="hide()" >81924</li>
+            <li onmouseover="show25()" onmouseout="hide()" >81925</li>
+            <li onmouseover="show10()" onmouseout="hide()" >81926</li>
+            <li onmouseover="show10()" onmouseout="hide()" >81927</li>
+            <li onmouseover="show10()" onmouseout="hide()" >81928</li>
+            <li onmouseover="show10()" onmouseout="hide()" >81929</li>
+            <li onmouseover="show10()" onmouseout="hide()" >81930</li>
+        </ul>
+        
+        <ul id="ul">
+            <li onmouseover="show10()" onmouseout="hide()" >81931</li>
+            <li onmouseover="show10()" onmouseout="hide()" >81932</li>
+            <li onmouseover="show10()" onmouseout="hide()" >81933</li>
+            <li onmouseover="show10()" onmouseout="hide()" >81934</li>
+            <li onmouseover="show10()" onmouseout="hide()" >81935</li>
+            <li onmouseover="show10()" onmouseout="hide()" >81936</li>
+            <li onmouseover="show10()" onmouseout="hide()" >81937</li>
+            <li onmouseover="show10()" onmouseout="hide()" >81938</li>
+            <li onmouseover="show10()" onmouseout="hide()" >81939</li>
+            <li onmouseover="show10()" onmouseout="hide()" >81940</li>
+        </ul>
+
+        <ul id="ul">
+            <li onmouseover="show10()" onmouseout="hide()" >81941</li>
+            <li onmouseover="show10()" onmouseout="hide()" >81942</li>
+            <li onmouseover="show10()" onmouseout="hide()" >81943</li>
+            <li onmouseover="show10()" onmouseout="hide()" >81944</li>
+            <li onmouseover="show10()" onmouseout="hide()" >81945</li>
+            <li onmouseover="show10()" onmouseout="hide()" >81946</li>
+            <li onmouseover="show10()" onmouseout="hide()" >81947</li>
+            <li onmouseover="show10()" onmouseout="hide()" >81948</li>
+            <li onmouseover="show10()" onmouseout="hide()" >81949</li>
+            <li onmouseover="show10()" onmouseout="hide()" >81950</li>
+        </ul>
+    </div>
+    <div id="bca820">
+        <ul id="ul">
+            <li>82001</li>
+            <li>82002</li>
+            <li>82003</li>
+            <li>82004</li>
+            <li>82005</li>
+            <li>82006</li>
+            <li>82007</li>
+            <li>82008</li>
+            <li>82009</li>
+            <li>82010</li>
+        </ul>
+        <ul id="ul">
+            <li>82011</li>
+            <li>82012</li>
+            <li>82013</li>
+            <li>82014</li>
+            <li>82015</li>
+            <li>82016</li>
+            <li>82017</li>
+            <li>82018</li>
+            <li>82019</li>
+            <li>82020</li>
+        </ul>
+        <ul id="ul">
+            <li>82021</li>
+            <li>82022</li>
+            <li>82023</li>
+            <li>82024</li>
+            <li>82025</li>
+            <li>82026</li>
+            <li>82027</li>
+            <li>82028</li>
+            <li>82029</li>
+            <li>82030</li>
+        </ul>
+        
+        <ul id="ul">
+            <li>82031</li>
+            <li>82032</li>
+            <li>82033</li>
+            <li>82034</li>
+            <li>82035</li>
+            <li>82036</li>
+            <li>82037</li>
+            <li>82038</li>
+            <li>82039</li>
+            <li>82040</li>
+        </ul>
+
+        <ul id="ul">
+            <li>82041</li>
+            <li>82042</li>
+            <li>82043</li>
+            <li>82044</li>
+            <li>82045</li>
+            <li>82046</li>
+            <li>82047</li>
+            <li>82048</li>
+            <li>82049</li>
+            <li>82050</li>
+        </ul>
+    </div>
+    <div id="tr">
+        <span>Total Record(s) : 50</span>
+    </div>
+</body>
+</html>
